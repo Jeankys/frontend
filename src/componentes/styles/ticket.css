@@ -46,10 +46,10 @@ h1 {
 .generate-ticket-button {
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #e28922;
+  background-color: #FF0000;
   color: white;
   border: none;
-  border-radius: 4px;
+  border-radius: 8px;
   cursor: pointer;
   margin-top: 20px;
 }
