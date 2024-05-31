@@ -46,12 +46,12 @@ h1 {
 .generate-ticket-button {
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #e28922;
+  background-color: #FF0000;
   color: white;
   border: none;
-  border-radius: 4px;
+  border-radius: 8px;
   cursor: pointer;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .generate-ticket-button:hover {
@@ -65,6 +65,7 @@ h1 {
   border-radius: 4px;
   width: 300px;
   text-align: center;
+  background-color: #00C9FF;
 }
 
 .generated-ticket-container h2 {

@@ -95,18 +95,9 @@ const TiquetesHome = () => {
 
   return (
     <div className="ticket-form">
-      <h1>Vuelos Quijano</h1>
+      <h1>Planet Flights</h1>
       <form onSubmit={handleSubmit} className="form-horizontal">
         <div className="form-inline">
-          <div className="form-field">
-            <input
-              type="text"
-              id="name"
-              placeholder="Nombre"
-              value={name}
-              onChange={(event) => setName(event.target.value)}
-            />
-          </div>
           <div className="form-field">
             <input
               type="text"
@@ -156,15 +147,14 @@ const TiquetesHome = () => {
         </div>
         <div className="contenedor-boton">
           <button type="submit" className="generate-ticket-button">
-            Generar Boleto
+            Generar Ticket
           </button>
         </div>
       </form>
 
       {generatedTickets.map((ticket, index) => (
         <div key={index} className="generated-ticket-container">
-          <h2>¡Boleto generado!</h2>
-          <p>Nombre: {ticket.name}</p>
+          <h2>Descripcion del Ticket:</h2>
           <p>Origen: {ticket.origin}</p>
           <p>Destino: {ticket.destination}</p>
           <p>Fecha: {ticket.date}</p>
